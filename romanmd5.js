@@ -223,7 +223,7 @@ function rot13(word) {
 };
 
 function encrypt(str,key){
-	var key = key ? key : Math.floor(Math.random() * (13 - 5) + 5);
+	var key = key ? key : Math.floor(Math.random() * (1000 - 100) + 100);
 	for(var i = 0; i < key; i++){
 		str = MD5(str); str = rot13(str); 
 	}

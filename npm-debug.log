@@ -19,25 +19,25 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /Users/dirkdunn/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/Users/dirkdunn/.npm/romanMD5/1.0.0/package.tgz', '.' ]
-11 verbose tarball /Users/dirkdunn/.npm/romanMD5/1.0.0/package.tgz
+10 verbose tar pack [ '/Users/dirkdunn/.npm/romanmd5/1.0.0/package.tgz', '.' ]
+11 verbose tarball /Users/dirkdunn/.npm/romanmd5/1.0.0/package.tgz
 12 verbose folder .
-13 info prepublish romanMD5@1.0.0
+13 info prepublish romanmd5@1.0.0
 14 silly lockFile 1f1177db-tar tar://.
 15 verbose lock tar://. /Users/dirkdunn/.npm/1f1177db-tar.lock
-16 silly lockFile 43dd24f4-n-npm-romanMD5-1-0-0-package-tgz tar:///Users/dirkdunn/.npm/romanMD5/1.0.0/package.tgz
-17 verbose lock tar:///Users/dirkdunn/.npm/romanMD5/1.0.0/package.tgz /Users/dirkdunn/.npm/43dd24f4-n-npm-romanMD5-1-0-0-package-tgz.lock
+16 silly lockFile 566ee2b6-n-npm-romanmd5-1-0-0-package-tgz tar:///Users/dirkdunn/.npm/romanmd5/1.0.0/package.tgz
+17 verbose lock tar:///Users/dirkdunn/.npm/romanmd5/1.0.0/package.tgz /Users/dirkdunn/.npm/566ee2b6-n-npm-romanmd5-1-0-0-package-tgz.lock
 18 silly lockFile 1f1177db-tar tar://.
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 43dd24f4-n-npm-romanMD5-1-0-0-package-tgz tar:///Users/dirkdunn/.npm/romanMD5/1.0.0/package.tgz
-21 silly lockFile 43dd24f4-n-npm-romanMD5-1-0-0-package-tgz tar:///Users/dirkdunn/.npm/romanMD5/1.0.0/package.tgz
-22 silly lockFile 2a3ab0d6-kdunn-npm-romanMD5-1-0-0-package /Users/dirkdunn/.npm/romanMD5/1.0.0/package
-23 verbose lock /Users/dirkdunn/.npm/romanMD5/1.0.0/package /Users/dirkdunn/.npm/2a3ab0d6-kdunn-npm-romanMD5-1-0-0-package.lock
-24 silly lockFile 2a3ab0d6-kdunn-npm-romanMD5-1-0-0-package /Users/dirkdunn/.npm/romanMD5/1.0.0/package
-25 silly lockFile 2a3ab0d6-kdunn-npm-romanMD5-1-0-0-package /Users/dirkdunn/.npm/romanMD5/1.0.0/package
+20 silly lockFile 566ee2b6-n-npm-romanmd5-1-0-0-package-tgz tar:///Users/dirkdunn/.npm/romanmd5/1.0.0/package.tgz
+21 silly lockFile 566ee2b6-n-npm-romanmd5-1-0-0-package-tgz tar:///Users/dirkdunn/.npm/romanmd5/1.0.0/package.tgz
+22 silly lockFile 528501bb-kdunn-npm-romanmd5-1-0-0-package /Users/dirkdunn/.npm/romanmd5/1.0.0/package
+23 verbose lock /Users/dirkdunn/.npm/romanmd5/1.0.0/package /Users/dirkdunn/.npm/528501bb-kdunn-npm-romanmd5-1-0-0-package.lock
+24 silly lockFile 528501bb-kdunn-npm-romanmd5-1-0-0-package /Users/dirkdunn/.npm/romanmd5/1.0.0/package
+25 silly lockFile 528501bb-kdunn-npm-romanmd5-1-0-0-package /Users/dirkdunn/.npm/romanmd5/1.0.0/package
 26 silly lockFile 3a52ce78- .
 27 silly lockFile 3a52ce78- .
-28 silly publish { name: 'romanMD5',
+28 silly publish { name: 'romanmd5',
 28 silly publish   version: '1.0.0',
 28 silly publish   description: 'A super cool encryption which uses ROT13 and MD5 to extra encrypt your data.',
 28 silly publish   main: 'romanmd5.js',
@@ -53,35 +53,37 @@
 28 silly publish   homepage: 'https://github.com/dirkdunn/romanMD5',
 28 silly publish   readme: '# romanMD5\nA super cool encryption which uses ROT13 and MD5 to extra encrypt your data.\n',
 28 silly publish   readmeFilename: 'README.md',
-28 silly publish   gitHead: '39717587672f22192c1df7f76187f73db778ad25',
-28 silly publish   _id: 'romanMD5@1.0.0',
-28 silly publish   _shasum: '93fd83b98e00f4802f3d7e5ff1f71a883d907bd4',
+28 silly publish   gitHead: 'aa8885be5144e81c9d36dccff753c052b8e9eb6a',
+28 silly publish   _id: 'romanmd5@1.0.0',
+28 silly publish   _shasum: '58c7248dd7dfd21f0101af17c274b2e7590079c0',
 28 silly publish   _from: '.' }
-29 verbose request where is /romanMD5
+29 verbose request where is /romanmd5
 30 verbose request registry https://registry.npmjs.org/
-31 verbose request id ca34c53b4ac67282
-32 verbose url raw /romanMD5
-33 verbose url resolving [ 'https://registry.npmjs.org/', './romanMD5' ]
-34 verbose url resolved https://registry.npmjs.org/romanMD5
-35 verbose request where is https://registry.npmjs.org/romanMD5
-36 info trying registry request attempt 1 at 18:58:02
-37 http PUT https://registry.npmjs.org/romanMD5
-38 http 403 https://registry.npmjs.org/romanMD5
-39 verbose headers { date: 'Sat, 21 Mar 2015 22:58:03 GMT',
+31 verbose request id 289485788c21fd46
+32 verbose url raw /romanmd5
+33 verbose url resolving [ 'https://registry.npmjs.org/', './romanmd5' ]
+34 verbose url resolved https://registry.npmjs.org/romanmd5
+35 verbose request where is https://registry.npmjs.org/romanmd5
+36 info trying registry request attempt 1 at 19:11:34
+37 http PUT https://registry.npmjs.org/romanmd5
+38 http 403 https://registry.npmjs.org/romanmd5
+39 verbose headers { date: 'Sat, 21 Mar 2015 23:11:34 GMT',
 39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
 39 verbose headers   'content-type': 'application/json',
 39 verbose headers   'cache-control': 'max-age=60',
-39 verbose headers   'content-length': '76',
+39 verbose headers   'content-length': '2446',
 39 verbose headers   'accept-ranges': 'bytes',
 39 verbose headers   via: '1.1 varnish',
-39 verbose headers   'x-served-by': 'cache-atl6225-ATL',
+39 verbose headers   'x-served-by': 'cache-iad2142-IAD',
 39 verbose headers   'x-cache': 'MISS',
 39 verbose headers   'x-cache-hits': '0',
-39 verbose headers   'x-timer': 'S1426978683.080643,VS0,VE142',
+39 verbose headers   'x-timer': 'S1426979494.756880,VS0,VE158',
 39 verbose headers   'keep-alive': 'timeout=10, max=50',
 39 verbose headers   connection: 'Keep-Alive' }
 40 error publish Failed PUT 403
-41 error Error: forbidden New packages must have all-lowercase names: romanMD5
+41 error Error: forbidden cannot modify pre-existing version: 1.0.0
+41 error old={"name":"romanmd5","version":"1.0.0","description":"A super cool encryption which uses ROT13 and MD5 to extra encrypt your data.","main":"romanmd5.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/dirkdunn/romanMD5.git"},"keywords":["MD5","Rot13","Encryption","Encrypt"],"author":{"name":"Dirk Dunn","email":"dirkdunn91@gmail.com","url":"http://dirkdunn.com"},"license":"ISC","bugs":{"url":"https://github.com/dirkdunn/romanMD5/issues"},"homepage":"https://github.com/dirkdunn/romanMD5","gitHead":"39717587672f22192c1df7f76187f73db778ad25","_id":"romanmd5@1.0.0","_shasum":"b2efbc10154c184edbfbee794282628c37373be5","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"dirkdunn","email":"dirkdunn91@gmail.com"},"maintainers":[{"name":"dirkdunn","email":"dirkdunn91@gmail.com"}],"dist":{"shasum":"b2efbc10154c184edbfbee794282628c37373be5","tarball":"http://registry.npmjs.org/romanmd5/-/romanmd5-1.0.0.tgz"}}
+41 error new={"name":"romanmd5","version":"1.0.0","description":"A super cool encryption which uses ROT13 and MD5 to extra encrypt your data.","main":"romanmd5.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/dirkdunn/romanMD5.git"},"keywords":["MD5","Rot13","Encryption","Encrypt"],"author":{"name":"Dirk Dunn","email":"dirkdunn91@gmail.com","url":"http://dirkdunn.com"},"license":"ISC","bugs":{"url":"https://github.com/dirkdunn/romanMD5/issues"},"homepage":"https://github.com/dirkdunn/romanMD5","readme":"# romanMD5\u000aA super cool encryption which uses ROT13 and MD5 to extra encrypt your data.\u000a","readmeFilename":"README.md","gitHead":"aa8885be5144e81c9d36dccff753c052b8e9eb6a","_id":"romanmd5@1.0.0","_shasum":"58c7248dd7dfd21f0101af17c274b2e7590079c0","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"dirkdunn","email":"dirkdunn91@gmail.com"},"maintainers":[{"name":"dirkdunn","email":"dirkdunn91@gmail.com"}],"dist":{"shasum":"58c7248dd7dfd21f0101af17c274b2e7590079c0","tarball":"http://registry.npmjs.org/romanmd5/-/romanmd5-1.0.0.tgz"}}: romanmd5
 41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
 41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
 41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
