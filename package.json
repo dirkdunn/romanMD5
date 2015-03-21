@@ -1,0 +1,25 @@
+{
+  "name": "romanmd5",
+  "version": "1.0.0",
+  "description": "A super cool encryption which uses ROT13 and MD5 to extra encrypt your data.",
+  "main": "romanmd5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirkdunn/romanMD5.git"
+  },
+  "keywords": [
+    "MD5",
+    "Rot13",
+    "Encryption",
+    "Encrypt"
+  ],
+  "author": "Dirk Dunn <dirkdunn91@gmail.com> (http://dirkdunn.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirkdunn/romanMD5/issues"
+  },
+  "homepage": "https://github.com/dirkdunn/romanMD5"
+}
