@@ -2,7 +2,7 @@
 A super cool encryption which uses ROT13 and MD5 to extra encrypt your data with roman swag.
 ![RomanMD5](http://dirkdunn.com/rot13.png "RomanMD5")
 
-When called with just a string to encrpyt, RomanMD5 returns your encrypted string, and a key.
+When called with just a string to encrypt, RomanMD5 returns your encrypted string, and a key.
 
 ```javascript
 var romanMD5 = require("./romanmd5");
@@ -13,7 +13,7 @@ If you want to retrieve the same encryption for that particular string again, si
 again with the key value as the second parameter.
 
 ```javascript
-romanMD5("String to encrypt.",587) /* => [ '9s576311r04964777191ro464srs4q20', 587 ] */
+romanMD5("String to encrypt.",587) /* =>  '9s576311r04964777191ro464srs4q20' */
 ```
 
 That's it, you can also get RomanMD5 on npm.

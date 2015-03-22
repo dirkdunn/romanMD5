@@ -223,11 +223,12 @@ function rot13(word) {
 };
 
 function encrypt(str,key){
+  var d = key ? true : false;
 	var key = key ? key : Math.floor(Math.random() * (1000 - 100) + 100);
 	for(var i = 0; i < key; i++){
 		str = MD5(str); str = rot13(str); 
 	}
-	return [str,key];
+	return d ? str : [str,key];
 };
 
 module.exports = encrypt;
