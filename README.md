@@ -1,5 +1,5 @@
 # romanMD5
-A super cool encryption which uses ROT13 and MD5 to extra encrypt your data with roman swag.
+Use your choice of ancient encryption plus MD5 to extra encrypt your data!
 ![RomanMD5](http://oi58.tinypic.com/ibfgp1.jpg "RomanMD5")
 
 RomanMD5 runs a roman encryption of your choice, plus the MD5 encrpytion algorithm between a range of 100 and 1000 times. Each method will return an array of two items, the first item is the encrypted string, and the second is the key. The key is the number of times the string was encrypted with the roman encryption of choice and MD5. The library currently supports:
