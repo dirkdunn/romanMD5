@@ -17,6 +17,43 @@ function romanMD5(){
     }
     return d ? str : [str,key];
   };
+  
+  this.enigmaEncrypt = function(str,key,r){
+        r = r ? r : Math.floor(Math.random() * (1000 - 100) + 100);
+        enigmaResult = enigma(str, key || null),
+        enigmaPassword = enigmaResult[0],
+        enigmaKey = key || enigmaResult[1];
+        
+
+      for(var i = 0; i < r; i++){
+        str = enigma(str, enigmaKey)[0];  str = MD5(str);   
+      }
+      
+      return key ? str : [str,enigmaKey,r];
+  };
+  
+  function enigma(phrase,key){
+        if(typeof phrase !== 'string') { console.error('Phrase must be a string!'); return null; }
+        
+        var alphabetBlock = [
+            'a','b','c','d','e','f','g','h','i','j',
+            'k','l','m','n','o','p','q','r','s',
+            't','u','v','w','x','y','z'],
+            rotationSequence = [],
+            encryptPattern = function(){
+                return phrase.replace(/[^A-Za-z]/,'').split('').map(function(v,i){
+                    var grossRotation = key ? key[i] : Math.floor((Math.random() * 26) + 1),
+                        letterIndex = alphabetBlock.indexOf(v.toLowerCase()),
+                        netRotation = (letterIndex + grossRotation) - ((grossRotation + letterIndex) >= 26 ? 26 : 0);
+                    rotationSequence.push(grossRotation);
+                    
+                    return alphabetBlock[netRotation];
+                });
+            }, encryptedPattern = encryptPattern().join('');
+        
+        return [encryptedPattern ,rotationSequence];
+            
+    }
 
 
   function MD5(string) {
