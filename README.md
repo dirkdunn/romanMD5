@@ -9,21 +9,24 @@ RomanMD5 runs a roman encryption of your choice, plus the MD5 encrpytion algorit
 
 
 **Using Rot13**
+
 ```javascript
 var romanMD5 = require("./romanmd5");
 romanMD5.rot13Encrypt("String to encrypt.") /* => [ '9s576311r04964777191ro464srs4q20', 587 ] */
 ```
 
 **Using Polyalphanumeric**
+
 ```javascript
 var romanMD5 = require("./romanmd5");
 romanMD5.polyAlphaEncrypt("Hello","snake") /* => [ 't3b57286lf800pg27e10w29mkx5d8k07', 819 ] */
 ```
 
 **Using Enigma Machine**
+
 The enigma cipher was a cipher that was used during WW2 for morse code, a random number
-is generated for each letter of the phrase you give, then each letter is thus rotated
-that many times! E.G. 'abc' => bcd [1,1,1]
+is generated for each letter of the phrase you give, then each letter is then rotated
+that many times E.G. 'abc' => bcd [1,1,1]
 ```javascript
 var romanMD5 = require("./romanmd5");
 // Enigma returns the encrypted string, the random rotation numbers & a key.
